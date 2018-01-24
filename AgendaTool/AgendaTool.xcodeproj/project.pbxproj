@@ -1,0 +1,500 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9A81E5AC20053D5F00641396 /* Location.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9A81E5AA20053D5F00641396 /* Location.cpp */; };
+		9A81E5AF20053D7B00641396 /* Note.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9A81E5AD20053D7B00641396 /* Note.cpp */; };
+		9A81E5B220053D9F00641396 /* DateAndTime.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9A81E5B020053D9F00641396 /* DateAndTime.cpp */; };
+		9A81E5B520053DF300641396 /* Project.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9A81E5B320053DF300641396 /* Project.cpp */; };
+		9A81E5B820053E1E00641396 /* ToDoItemModel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9A81E5B620053E1E00641396 /* ToDoItemModel.cpp */; };
+		9A81E5BD20053EA600641396 /* ToDoItemController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9A81E5BB20053EA600641396 /* ToDoItemController.cpp */; };
+		9A81E5C120053F5100641396 /* GUIBase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9A81E5BF20053F5100641396 /* GUIBase.cpp */; };
+		9A81E5C420053F7200641396 /* Panel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9A81E5C220053F7200641396 /* Panel.cpp */; };
+		9A81E5C720053F9B00641396 /* TextBlock.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9A81E5C520053F9B00641396 /* TextBlock.cpp */; };
+		9A81E5CA20053FCF00641396 /* ToDoItemView.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9A81E5C820053FCF00641396 /* ToDoItemView.cpp */; };
+		9A81E5CF2006047200641396 /* TDIVinterface.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9A81E5CD2006047200641396 /* TDIVinterface.cpp */; };
+		9A81E5E52006B30700641396 /* AgendaController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9A81E5E32006B30700641396 /* AgendaController.cpp */; };
+		9A81E5E820075E1900641396 /* TDIVPC.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9A81E5E620075E1900641396 /* TDIVPC.cpp */; };
+		9A81E5EB2007610100641396 /* TDIVfactory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9A81E5E92007610100641396 /* TDIVfactory.cpp */; };
+		9A81E5EE20076B0800641396 /* AgendaView.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9A81E5EC20076B0800641396 /* AgendaView.cpp */; };
+		9A81E5F22007EFDC00641396 /* Interactable.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9A81E5F02007EFDC00641396 /* Interactable.cpp */; };
+		9A81E5F52007F7B200641396 /* Button.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9A81E5F32007F7B200641396 /* Button.cpp */; };
+		9AE5E5C120191F8500889560 /* MenuBar.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9AE5E5BF20191F8500889560 /* MenuBar.cpp */; };
+		9AE5E5C42019227000889560 /* ButtonBar.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9AE5E5C22019227000889560 /* ButtonBar.cpp */; };
+		E4328149138ABC9F0047C5CB /* openFrameworksDebug.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E4328148138ABC890047C5CB /* openFrameworksDebug.a */; };
+		E4B69E200A3A1BDC003C02F2 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4B69E1D0A3A1BDC003C02F2 /* main.cpp */; };
+		E4B69E210A3A1BDC003C02F2 /* ofApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4B69E1E0A3A1BDC003C02F2 /* ofApp.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E4328147138ABC890047C5CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E4328143138ABC890047C5CB /* openFrameworksLib.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E4B27C1510CBEB8E00536013;
+			remoteInfo = openFrameworks;
+		};
+		E4EEB9AB138B136A00A80321 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E4328143138ABC890047C5CB /* openFrameworksLib.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = E4B27C1410CBEB8E00536013;
+			remoteInfo = openFrameworks;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E4C2427710CC5ABF004149E2 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		9A81E5AA20053D5F00641396 /* Location.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Location.cpp; sourceTree = "<group>"; };
+		9A81E5AB20053D5F00641396 /* Location.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Location.hpp; sourceTree = "<group>"; };
+		9A81E5AD20053D7B00641396 /* Note.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Note.cpp; sourceTree = "<group>"; };
+		9A81E5AE20053D7B00641396 /* Note.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Note.hpp; sourceTree = "<group>"; };
+		9A81E5B020053D9F00641396 /* DateAndTime.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = DateAndTime.cpp; sourceTree = "<group>"; };
+		9A81E5B120053D9F00641396 /* DateAndTime.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = DateAndTime.hpp; sourceTree = "<group>"; };
+		9A81E5B320053DF300641396 /* Project.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Project.cpp; sourceTree = "<group>"; };
+		9A81E5B420053DF300641396 /* Project.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Project.hpp; sourceTree = "<group>"; };
+		9A81E5B620053E1E00641396 /* ToDoItemModel.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ToDoItemModel.cpp; sourceTree = "<group>"; };
+		9A81E5B720053E1E00641396 /* ToDoItemModel.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ToDoItemModel.hpp; sourceTree = "<group>"; };
+		9A81E5BB20053EA600641396 /* ToDoItemController.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ToDoItemController.cpp; sourceTree = "<group>"; };
+		9A81E5BC20053EA600641396 /* ToDoItemController.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ToDoItemController.hpp; sourceTree = "<group>"; };
+		9A81E5BF20053F5100641396 /* GUIBase.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GUIBase.cpp; sourceTree = "<group>"; };
+		9A81E5C020053F5100641396 /* GUIBase.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = GUIBase.hpp; sourceTree = "<group>"; };
+		9A81E5C220053F7200641396 /* Panel.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Panel.cpp; sourceTree = "<group>"; };
+		9A81E5C320053F7200641396 /* Panel.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Panel.hpp; sourceTree = "<group>"; };
+		9A81E5C520053F9B00641396 /* TextBlock.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TextBlock.cpp; sourceTree = "<group>"; };
+		9A81E5C620053F9B00641396 /* TextBlock.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = TextBlock.hpp; sourceTree = "<group>"; };
+		9A81E5C820053FCF00641396 /* ToDoItemView.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ToDoItemView.cpp; sourceTree = "<group>"; };
+		9A81E5C920053FCF00641396 /* ToDoItemView.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ToDoItemView.hpp; sourceTree = "<group>"; };
+		9A81E5CD2006047200641396 /* TDIVinterface.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TDIVinterface.cpp; sourceTree = "<group>"; };
+		9A81E5CE2006047200641396 /* TDIVinterface.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = TDIVinterface.hpp; sourceTree = "<group>"; };
+		9A81E5E32006B30700641396 /* AgendaController.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AgendaController.cpp; sourceTree = "<group>"; };
+		9A81E5E42006B30700641396 /* AgendaController.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = AgendaController.hpp; sourceTree = "<group>"; };
+		9A81E5E620075E1900641396 /* TDIVPC.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TDIVPC.cpp; sourceTree = "<group>"; };
+		9A81E5E720075E1900641396 /* TDIVPC.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = TDIVPC.hpp; sourceTree = "<group>"; };
+		9A81E5E92007610100641396 /* TDIVfactory.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TDIVfactory.cpp; sourceTree = "<group>"; };
+		9A81E5EA2007610100641396 /* TDIVfactory.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = TDIVfactory.hpp; sourceTree = "<group>"; };
+		9A81E5EC20076B0800641396 /* AgendaView.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AgendaView.cpp; sourceTree = "<group>"; };
+		9A81E5ED20076B0800641396 /* AgendaView.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = AgendaView.hpp; sourceTree = "<group>"; };
+		9A81E5F02007EFDC00641396 /* Interactable.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Interactable.cpp; sourceTree = "<group>"; };
+		9A81E5F12007EFDC00641396 /* Interactable.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Interactable.hpp; sourceTree = "<group>"; };
+		9A81E5F32007F7B200641396 /* Button.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Button.cpp; sourceTree = "<group>"; };
+		9A81E5F42007F7B200641396 /* Button.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Button.hpp; sourceTree = "<group>"; };
+		9AE5E5BF20191F8500889560 /* MenuBar.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MenuBar.cpp; sourceTree = "<group>"; };
+		9AE5E5C020191F8500889560 /* MenuBar.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MenuBar.hpp; sourceTree = "<group>"; };
+		9AE5E5C22019227000889560 /* ButtonBar.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ButtonBar.cpp; sourceTree = "<group>"; };
+		9AE5E5C32019227000889560 /* ButtonBar.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ButtonBar.hpp; sourceTree = "<group>"; };
+		E4328143138ABC890047C5CB /* openFrameworksLib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = openFrameworksLib.xcodeproj; path = ../../../libs/openFrameworksCompiled/project/osx/openFrameworksLib.xcodeproj; sourceTree = SOURCE_ROOT; };
+		E4B69B5B0A3A1756003C02F2 /* AgendaToolDebug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AgendaToolDebug.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4B69E1D0A3A1BDC003C02F2 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = src/main.cpp; sourceTree = SOURCE_ROOT; };
+		E4B69E1E0A3A1BDC003C02F2 /* ofApp.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofApp.cpp; path = src/ofApp.cpp; sourceTree = SOURCE_ROOT; };
+		E4B69E1F0A3A1BDC003C02F2 /* ofApp.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = ofApp.h; path = src/ofApp.h; sourceTree = SOURCE_ROOT; };
+		E4B6FCAD0C3E899E008CF71C /* openFrameworks-Info.plist */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.plist.xml; path = "openFrameworks-Info.plist"; sourceTree = "<group>"; };
+		E4EB691F138AFCF100A09F29 /* CoreOF.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = CoreOF.xcconfig; path = ../../../libs/openFrameworksCompiled/project/osx/CoreOF.xcconfig; sourceTree = SOURCE_ROOT; };
+		E4EB6923138AFD0F00A09F29 /* Project.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Project.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E4B69B590A3A1756003C02F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4328149138ABC9F0047C5CB /* openFrameworksDebug.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6948EE371B920CB800B5AC1A /* local_addons */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = local_addons;
+			sourceTree = "<group>";
+		};
+		9A81E5A920053D3E00641396 /* data */ = {
+			isa = PBXGroup;
+			children = (
+				9A81E5B020053D9F00641396 /* DateAndTime.cpp */,
+				9A81E5B120053D9F00641396 /* DateAndTime.hpp */,
+				9A81E5AA20053D5F00641396 /* Location.cpp */,
+				9A81E5AB20053D5F00641396 /* Location.hpp */,
+				9A81E5AD20053D7B00641396 /* Note.cpp */,
+				9A81E5AE20053D7B00641396 /* Note.hpp */,
+				9A81E5B320053DF300641396 /* Project.cpp */,
+				9A81E5B420053DF300641396 /* Project.hpp */,
+				9A81E5B620053E1E00641396 /* ToDoItemModel.cpp */,
+				9A81E5B720053E1E00641396 /* ToDoItemModel.hpp */,
+			);
+			name = data;
+			sourceTree = "<group>";
+		};
+		9A81E5B920053E6C00641396 /* control */ = {
+			isa = PBXGroup;
+			children = (
+				9A81E5BB20053EA600641396 /* ToDoItemController.cpp */,
+				9A81E5BC20053EA600641396 /* ToDoItemController.hpp */,
+				9A81E5E32006B30700641396 /* AgendaController.cpp */,
+				9A81E5E42006B30700641396 /* AgendaController.hpp */,
+			);
+			name = control;
+			sourceTree = "<group>";
+		};
+		9A81E5BA20053E7800641396 /* ui */ = {
+			isa = PBXGroup;
+			children = (
+				9A81E5BE20053F3D00641396 /* GUIBase */,
+				9A81E5C820053FCF00641396 /* ToDoItemView.cpp */,
+				9A81E5C920053FCF00641396 /* ToDoItemView.hpp */,
+				9A81E5CD2006047200641396 /* TDIVinterface.cpp */,
+				9A81E5CE2006047200641396 /* TDIVinterface.hpp */,
+				9A81E5E620075E1900641396 /* TDIVPC.cpp */,
+				9A81E5E720075E1900641396 /* TDIVPC.hpp */,
+				9A81E5E92007610100641396 /* TDIVfactory.cpp */,
+				9A81E5EA2007610100641396 /* TDIVfactory.hpp */,
+				9A81E5EC20076B0800641396 /* AgendaView.cpp */,
+				9A81E5ED20076B0800641396 /* AgendaView.hpp */,
+				9AE5E5BF20191F8500889560 /* MenuBar.cpp */,
+				9AE5E5C020191F8500889560 /* MenuBar.hpp */,
+			);
+			name = ui;
+			sourceTree = "<group>";
+		};
+		9A81E5BE20053F3D00641396 /* GUIBase */ = {
+			isa = PBXGroup;
+			children = (
+				9A81E5BF20053F5100641396 /* GUIBase.cpp */,
+				9A81E5C020053F5100641396 /* GUIBase.hpp */,
+				9A81E5C220053F7200641396 /* Panel.cpp */,
+				9A81E5C320053F7200641396 /* Panel.hpp */,
+				9A81E5C520053F9B00641396 /* TextBlock.cpp */,
+				9A81E5C620053F9B00641396 /* TextBlock.hpp */,
+				9A81E5F02007EFDC00641396 /* Interactable.cpp */,
+				9A81E5F12007EFDC00641396 /* Interactable.hpp */,
+				9A81E5F32007F7B200641396 /* Button.cpp */,
+				9A81E5F42007F7B200641396 /* Button.hpp */,
+				9AE5E5C22019227000889560 /* ButtonBar.cpp */,
+				9AE5E5C32019227000889560 /* ButtonBar.hpp */,
+			);
+			name = GUIBase;
+			sourceTree = "<group>";
+		};
+		BB4B014C10F69532006C3DED /* addons */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = addons;
+			sourceTree = "<group>";
+		};
+		E4328144138ABC890047C5CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E4328148138ABC890047C5CB /* openFrameworksDebug.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E4B69B4A0A3A1720003C02F2 = {
+			isa = PBXGroup;
+			children = (
+				E4B6FCAD0C3E899E008CF71C /* openFrameworks-Info.plist */,
+				E4EB6923138AFD0F00A09F29 /* Project.xcconfig */,
+				E4B69E1C0A3A1BDC003C02F2 /* src */,
+				E4EEC9E9138DF44700A80321 /* openFrameworks */,
+				BB4B014C10F69532006C3DED /* addons */,
+				6948EE371B920CB800B5AC1A /* local_addons */,
+				E4B69B5B0A3A1756003C02F2 /* AgendaToolDebug.app */,
+			);
+			sourceTree = "<group>";
+		};
+		E4B69E1C0A3A1BDC003C02F2 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				9A81E5B920053E6C00641396 /* control */,
+				9A81E5A920053D3E00641396 /* data */,
+				9A81E5BA20053E7800641396 /* ui */,
+				E4B69E1D0A3A1BDC003C02F2 /* main.cpp */,
+				E4B69E1E0A3A1BDC003C02F2 /* ofApp.cpp */,
+				E4B69E1F0A3A1BDC003C02F2 /* ofApp.h */,
+			);
+			path = src;
+			sourceTree = SOURCE_ROOT;
+		};
+		E4EEC9E9138DF44700A80321 /* openFrameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E4EB691F138AFCF100A09F29 /* CoreOF.xcconfig */,
+				E4328143138ABC890047C5CB /* openFrameworksLib.xcodeproj */,
+			);
+			name = openFrameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E4B69B5A0A3A1756003C02F2 /* AgendaTool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4B69B5F0A3A1757003C02F2 /* Build configuration list for PBXNativeTarget "AgendaTool" */;
+			buildPhases = (
+				E4B69B580A3A1756003C02F2 /* Sources */,
+				E4B69B590A3A1756003C02F2 /* Frameworks */,
+				E4B6FFFD0C3F9AB9008CF71C /* ShellScript */,
+				E4C2427710CC5ABF004149E2 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E4EEB9AC138B136A00A80321 /* PBXTargetDependency */,
+			);
+			name = AgendaTool;
+			productName = myOFApp;
+			productReference = E4B69B5B0A3A1756003C02F2 /* AgendaToolDebug.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E4B69B4C0A3A1720003C02F2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+			};
+			buildConfigurationList = E4B69B4D0A3A1720003C02F2 /* Build configuration list for PBXProject "AgendaTool" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = E4B69B4A0A3A1720003C02F2;
+			productRefGroup = E4B69B4A0A3A1720003C02F2;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = E4328144138ABC890047C5CB /* Products */;
+					ProjectRef = E4328143138ABC890047C5CB /* openFrameworksLib.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				E4B69B5A0A3A1756003C02F2 /* AgendaTool */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		E4328148138ABC890047C5CB /* openFrameworksDebug.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = openFrameworksDebug.a;
+			remoteRef = E4328147138ABC890047C5CB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E4B6FFFD0C3F9AB9008CF71C /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "mkdir -p \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/Resources/\"\n# Copy default icon file into App/Resources\nrsync -aved \"$ICON_FILE\" \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/Resources/\"\n# Copy libfmod and change install directory for fmod to run\nrsync -aved ../../../libs/fmodex/lib/osx/libfmodex.dylib \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/Frameworks/\";\ninstall_name_tool -change @executable_path/libfmodex.dylib @executable_path/../Frameworks/libfmodex.dylib \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/MacOS/$PRODUCT_NAME\";\n# Copy GLUT framework (must remove for AppStore submissions)\nrsync -aved ../../../libs/glut/lib/osx/GLUT.framework \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/Frameworks/\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E4B69B580A3A1756003C02F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A81E5BD20053EA600641396 /* ToDoItemController.cpp in Sources */,
+				9A81E5F22007EFDC00641396 /* Interactable.cpp in Sources */,
+				9A81E5B820053E1E00641396 /* ToDoItemModel.cpp in Sources */,
+				E4B69E200A3A1BDC003C02F2 /* main.cpp in Sources */,
+				9A81E5C120053F5100641396 /* GUIBase.cpp in Sources */,
+				9A81E5AC20053D5F00641396 /* Location.cpp in Sources */,
+				9AE5E5C120191F8500889560 /* MenuBar.cpp in Sources */,
+				9A81E5C720053F9B00641396 /* TextBlock.cpp in Sources */,
+				9A81E5B220053D9F00641396 /* DateAndTime.cpp in Sources */,
+				9AE5E5C42019227000889560 /* ButtonBar.cpp in Sources */,
+				9A81E5B520053DF300641396 /* Project.cpp in Sources */,
+				E4B69E210A3A1BDC003C02F2 /* ofApp.cpp in Sources */,
+				9A81E5E820075E1900641396 /* TDIVPC.cpp in Sources */,
+				9A81E5EE20076B0800641396 /* AgendaView.cpp in Sources */,
+				9A81E5CA20053FCF00641396 /* ToDoItemView.cpp in Sources */,
+				9A81E5C420053F7200641396 /* Panel.cpp in Sources */,
+				9A81E5E52006B30700641396 /* AgendaController.cpp in Sources */,
+				9A81E5CF2006047200641396 /* TDIVinterface.cpp in Sources */,
+				9A81E5F52007F7B200641396 /* Button.cpp in Sources */,
+				9A81E5AF20053D7B00641396 /* Note.cpp in Sources */,
+				9A81E5EB2007610100641396 /* TDIVfactory.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E4EEB9AC138B136A00A80321 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = openFrameworks;
+			targetProxy = E4EEB9AB138B136A00A80321 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E4B69B4E0A3A1720003C02F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4EB6923138AFD0F00A09F29 /* Project.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/bin/";
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				GCC_AUTO_VECTORIZATION = YES;
+				GCC_ENABLE_SSE3_EXTENSIONS = YES;
+				GCC_ENABLE_SUPPLEMENTAL_SSE3_INSTRUCTIONS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = YES;
+				GCC_WARN_ABOUT_INVALID_OFFSETOF_MACRO = NO;
+				GCC_WARN_ALLOW_INCOMPLETE_PROTOCOL = NO;
+				GCC_WARN_UNINITIALIZED_AUTOS = NO;
+				GCC_WARN_UNUSED_VALUE = NO;
+				GCC_WARN_UNUSED_VARIABLE = NO;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-D__MACOSX_CORE__",
+					"-mtune=native",
+				);
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		E4B69B4F0A3A1720003C02F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4EB6923138AFD0F00A09F29 /* Project.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/bin/";
+				COPY_PHASE_STRIP = YES;
+				DEAD_CODE_STRIPPING = YES;
+				GCC_AUTO_VECTORIZATION = YES;
+				GCC_ENABLE_SSE3_EXTENSIONS = YES;
+				GCC_ENABLE_SUPPLEMENTAL_SSE3_INSTRUCTIONS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_UNROLL_LOOPS = YES;
+				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = YES;
+				GCC_WARN_ABOUT_INVALID_OFFSETOF_MACRO = NO;
+				GCC_WARN_ALLOW_INCOMPLETE_PROTOCOL = NO;
+				GCC_WARN_UNINITIALIZED_AUTOS = NO;
+				GCC_WARN_UNUSED_VALUE = NO;
+				GCC_WARN_UNUSED_VARIABLE = NO;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-D__MACOSX_CORE__",
+					"-mtune=native",
+				);
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		E4B69B600A3A1757003C02F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4EB6923138AFD0F00A09F29 /* Project.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+				);
+				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)/../../../libs/glut/lib/osx\"";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_MODEL_TUNING = NONE;
+				ICON = "$(ICON_NAME_DEBUG)";
+				ICON_FILE = "$(ICON_FILE_PATH)$(ICON)";
+				INFOPLIST_FILE = "openFrameworks-Info.plist";
+				INSTALL_PATH = /Applications;
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				PRODUCT_NAME = "$(TARGET_NAME)Debug";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E4B69B610A3A1757003C02F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4EB6923138AFD0F00A09F29 /* Project.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+				);
+				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)/../../../libs/glut/lib/osx\"";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_MODEL_TUNING = NONE;
+				ICON = "$(ICON_NAME_RELEASE)";
+				ICON_FILE = "$(ICON_FILE_PATH)$(ICON)";
+				INFOPLIST_FILE = "openFrameworks-Info.plist";
+				INSTALL_PATH = /Applications;
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+				baseConfigurationReference = E4EB6923138AFD0F00A09F29;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E4B69B4D0A3A1720003C02F2 /* Build configuration list for PBXProject "AgendaTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4B69B4E0A3A1720003C02F2 /* Debug */,
+				E4B69B4F0A3A1720003C02F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4B69B5F0A3A1757003C02F2 /* Build configuration list for PBXNativeTarget "AgendaTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4B69B600A3A1757003C02F2 /* Debug */,
+				E4B69B610A3A1757003C02F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E4B69B4C0A3A1720003C02F2 /* Project object */;
+}
